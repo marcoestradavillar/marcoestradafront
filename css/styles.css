@@ -1,0 +1,685 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=DynaPuff&family=Montserrat:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+     
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+   }
+
+p{
+
+line-height: 25px;
+}   
+
+header{
+    
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    align-items: center;
+    max-width: 1440px;
+    
+    
+}
+
+
+header nav a{
+    text-decoration: none;
+    color: rgba(36, 46, 82, 1);
+    
+}
+
+.boton1{
+    background-color: #8B48BF;
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    
+}
+
+header .barra{
+    display: none;
+}
+
+
+header nav a:hover{
+    color: rgba(36, 46, 82, 0.6);
+}
+
+.boton1:hover{
+    background-color:rgba(139, 72, 191, 0.9);
+    color: rgba(255, 255, 255, 1)
+}
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+    max-width: 1440px;
+    
+    
+}
+
+h1{
+        font-size: 3.625rem;
+        color: rgba(35, 44, 80, 1);
+        
+}
+
+.section1 p{
+    font-size: 1.035rem;
+    
+}
+
+
+.section1 button{
+    background-color: #8B48BF;
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    
+    
+}
+
+.section1 img{
+
+    width: 35%;
+}
+
+.section1 button:hover{
+    background-color:rgba(139, 72, 191, 0.9);
+    color: rgba(255, 255, 255, 1)
+}
+
+.section2{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+    max-width: 1440px;
+}
+
+.section2 .whats{
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.section2 h2{
+
+    font-size: 2.25rem;
+    color: rgba(35, 40, 81, 1);
+}
+
+.whats p{
+
+    color: rgba(0, 0, 0, 1)
+}
+
+.section2 h5{
+
+    color: rgba(50, 56, 81, 1);
+}
+
+.section2 .caja p{
+
+    color: rgba(179, 178, 183, 1);
+}
+
+.parrafos{
+
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: left;
+    
+    max-width: 1440px;
+    
+    
+}
+.parrafos p{
+    margin-left: 70px;
+    width: 32vw;
+    
+}
+
+.parrafos br{
+    display: none;
+}
+.parrafos h5{
+
+    display: inline-block;
+    
+}
+
+.parrafos span{
+
+    border-radius: 30px;
+    background-color: #8B48BF;
+    padding: 10px 25px;
+    margin-right: 10px;
+    color: white;
+    font-size: 1em;
+    
+
+}
+
+
+
+.section3{
+    
+    max-width: 1440px;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    
+}
+
+.titulo3{
+    display: flex;
+    justify-content: center;
+    font-size: 2.452rem;
+}
+
+.cartas{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+
+}
+
+.botoncartas{
+
+    display: flex;
+    justify-content: center;
+}
+
+.cartas img{
+    width: 70px;
+    height: 70px;
+}
+
+
+
+.fondocartas{
+    background-color: rgba(250, 250, 250, 1);
+    text-align: center;
+    padding: 20px;
+    
+    
+
+}
+
+
+
+.section3 .anisha, .alina, .richard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section3 img{
+
+    position: relative;
+    top: 40px;
+}
+
+.section3 p{
+    color: rgba(185, 185, 193, 1);
+}
+
+.section3 button{
+
+    background-color: #8B48BF;
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.section3 button:hover{
+    background-color: rgba(139, 72, 191, 0.7);
+    color: rgba(255, 255, 255, 1)
+}
+
+.section4{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(139, 72, 191, 1);
+    align-items: center;
+    height: 30vh;
+    margin-top: 150px;
+    max-width: 1440px;
+    
+    
+    
+
+}
+
+.section4 h2{
+    color: white;
+    font-size: 2.5rem;
+    margin-right: 490px;
+    
+}
+
+.section4 button{
+    background-color: white;
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    color: rgba(139, 72, 191, 1);
+    border: none;
+    cursor: pointer;
+    
+}
+
+.section4 button:active{
+    background-color:  rgba(255, 255, 255, 0.5)
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(30, 30, 38, 1);
+    height: 30vh;
+    color: white;
+    align-items: center;
+    max-width: 1440px;
+    
+   
+    
+}
+
+footer li{
+    list-style-type: none;
+    
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    height: 80%;
+    align-items: center;
+    
+
+}
+
+footer .logos i{
+    
+    font-size: 20px;
+    margin: 6px;
+}
+
+footer p{
+
+    font-size: 0.781rem;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 80%;
+}
+
+footer .listas{
+
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    
+}
+
+footer li{
+
+    margin: 15px;
+}
+
+footer .poculto{
+
+    display: none;
+}
+
+
+
+
+.formulario button{
+    background-color: rgba(139, 72, 191, 1);
+    border-radius: 50px;
+    width: 63px;
+    height: 42px;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.formulario button:active{
+    background-color:  rgba(139, 72, 191, 0.7);
+}
+
+footer form input{
+    border-radius: 50px;
+    height: 44px;
+    width: 201px;
+}
+
+footer i{
+    color: white;
+}
+
+
+
+
+
+@media (max-width: 480px){
+
+   
+
+    header .barra{
+        display: unset;
+        cursor: pointer;
+
+    }
+
+    header button{
+
+        display: none;
+    }
+
+    header nav{
+
+        display: none;
+    }
+
+    header{
+
+        justify-content: space-between;
+        width: 100vw;
+        padding-left: 25px;
+        padding-right: 25px;
+        height: 25vh;
+        
+        
+    }
+
+    header .barra{
+
+        width: 46.88px;
+        height: 41.25px;
+    }
+
+    main{
+        margin-top: -150px;
+    }
+    .section1 img{
+
+        order: -1 ;
+        width: 100%;
+        margin-top: 80px;
+        width: 90%;
+    }
+
+    
+    .section1 .bring{
+
+        text-align: center;
+        padding-right: 40px;
+        margin-top: 50px;
+        margin: 0;
+        padding: 0;
+       
+       
+    }
+
+    .section1 .bring h1{
+
+       margin: 50px;
+       
+    }
+
+    .section1 p{
+
+        padding: ;
+        margin-right: 30px;
+        margin-left: 30px;
+        
+    }
+
+    .section1 .bring button{
+
+        margin-top: 10px;
+    }
+
+  
+
+    .section1 .bring br{
+
+        display: none
+    }
+
+    
+
+    .section2{
+
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        
+            
+        }
+    
+        .section2 .whats{
+    
+            text-align: center;
+            margin-top: -70px;
+            align-items: center;
+        }
+    
+        .parrafos p{
+            margin-left: 0px;
+            width: 80vw;
+            
+        }
+    
+        .parrafos{
+    
+            
+            margin-top: 90px;
+        }
+        .section2 .prueba{
+
+            display: flex;
+            background-color: rgba(139, 72, 191, 0.3);
+            justify-content: flex-start;
+        }
+    
+        .section2 .prueba span{
+           width: 69px;
+           height: 43px;
+           margin-top: 9px;
+           text-align: center;
+        }
+    
+        .section3{
+
+            margin: auto;
+        }
+
+        .section3 .anisha{
+
+            display: none;
+        }
+
+        .section3 .richard{
+
+            display: none;
+        }
+    
+
+        .section4{
+
+            margin: auto;
+            height: 50vh;
+            margin-top: 10vh;
+            flex-direction: column;
+        }
+
+        .section4 h2{
+
+            margin: 0;
+            text-align: center;
+        }
+
+        
+
+
+    footer{
+        width: 100vw;
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+        
+        
+        
+        
+    }
+
+    .footer1{
+
+        display: flex;
+        align-items: center;
+        
+        
+        
+    }
+
+    .footer1 img{
+
+        order: 0;
+        
+    }
+
+    .footer1 .logos{
+        order: -1;
+        
+    }
+
+    
+
+    footer .formulario{
+
+        order: -1
+        ;
+    }
+
+    footer p{
+        display: none;
+       
+    
+    }
+
+    footer .poculto{
+
+        display: unset;
+        order: 2;
+    }
+
+    footer .listas{
+
+        order: 0;
+        width: 80%;
+        align-items: center;
+        
+        
+    }
+
+    footer .footer1{
+
+        order: 1;
+        margin: 0%;
+    }
+
+    .footer1 i{
+
+        padding: 20px;
+    }
+
+    footer form input{
+
+        width: 308px;
+    }
+
+    footer .formulario{
+
+        margin: 0%;
+    }
+
+    .listas ul{
+
+        margin: 0%;
+        padding: 0%;
+    }
+
+    footer p{
+
+        margin-bottom: 30px;
+    }
+
+    
+
+    
+  
+   
+
+
+   }
+
+
+
+      
+
+
+
+
+
+   
+
+
+   
+   
+
