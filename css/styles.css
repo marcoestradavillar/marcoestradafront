@@ -203,7 +203,7 @@ h1{
 .titulo3{
     display: flex;
     justify-content: center;
-    font-size: 2.452rem;
+    font-size: 2.451rem;
 }
 
 .cartas{
@@ -540,6 +540,11 @@ footer i{
             margin: auto;
         }
 
+        .section3 h3{
+
+        
+        
+        }
         .section3 .anisha{
 
             display: none;
@@ -571,7 +576,7 @@ footer i{
     footer{
         width: 100vw;
         flex-direction: column;
-        height: 100vh;
+        height: 80vh;
         align-items: center;
         
         
@@ -636,12 +641,12 @@ footer i{
 
     .footer1 i{
 
-        padding: 20px;
+        padding: 15px;
     }
 
     footer form input{
 
-        width: 308px;
+        width: 280px;
     }
 
     footer .formulario{
