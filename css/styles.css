@@ -49,8 +49,6 @@ header{
     justify-content: space-around;
     height: 20vh;
     align-items: center;
-    width: 100vw;
-    
     
 }
 
@@ -105,7 +103,6 @@ header nav a:hover{
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 15vh;
-    width: 100vw;
     
     
 }
@@ -167,7 +164,6 @@ h1{
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 15vh;
-    width: 100vw;
 }
 
 .section2 .whats{
@@ -251,9 +247,7 @@ span{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
-
-    
+  
     
 }
 
@@ -333,11 +327,7 @@ span{
     background-color: rgba(139, 72, 191, 1);
     align-items: center;
     height: 30vh;
-    margin-top: 15vh;
-    width: 100vw;
-    
-    
-    
+    margin-top: 15vh;   
 
 }
 
@@ -370,9 +360,7 @@ footer{
     height: 30vh;
     color: white;
     align-items: center;
-    width: 100vw;
-    
-   
+ 
     
 }
 
@@ -509,7 +497,6 @@ form button:hover{
     header{
 
         justify-content: space-between;
-        width: 100vw;
         padding-left: 25px;
         padding-right: 25px;
         height: 25vh;
@@ -536,7 +523,6 @@ form button:hover{
     .section1 img{
 
         order: -1 ;
-        width: 100%;
         margin-top: 80px;
         width: 90%;
         
@@ -548,7 +534,6 @@ form button:hover{
         text-align: center;
         padding-right: 40px;
         margin-top: 50px;
-        margin: 0;
         padding: 0;
        
        
@@ -586,10 +571,8 @@ form button:hover{
 
         justify-content: center;
         align-items: center;
-        width: 100vw;
         margin-top: 20vh;
-        
-            
+              
         }
     
         .section2 .whats{
@@ -610,6 +593,7 @@ form button:hover{
             
             margin-top: 10vh;
         }
+        
         .section2 .tituloparrafos{
 
             display: flex;
@@ -676,9 +660,7 @@ form button:hover{
         height: 80vh;
         align-items: center;
         
-        
-        
-        
+          
     }
 
     .footer1{
@@ -733,7 +715,7 @@ form button:hover{
     footer .footer1{
 
         order: 1;
-        margin: 0%;
+        
     }
 
     .footer1 i{
@@ -746,16 +728,7 @@ form button:hover{
         width: 280px;
     }
 
-    footer .formulario{
-
-        margin: 0%;
-    }
-
-    .listas ul{
-
-        margin: 0%;
-        padding: 0%;
-    }
+    
 
     footer p{
 
